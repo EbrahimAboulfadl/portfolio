@@ -1,0 +1,18 @@
+.action {
+  text-decoration: none;
+  color: grey;
+  margin: 15px;
+  height: 100px;
+}
+.action.active {
+  /* background-color: #17242a; */
+  border-bottom: 3px solid #2257bf;
+  color: #2257bf;
+  font-weight: bold;
+}
+
+.action:hover {
+    border-bottom: 3px solid #2257bf;
+    color: #2257bf;
+    font-weight: bold;
+}
