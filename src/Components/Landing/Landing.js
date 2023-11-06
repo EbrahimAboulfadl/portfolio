@@ -1,8 +1,8 @@
 import classes from "./Landing.module.css";
-import landing from "./../../assets/landingFinal.png";
+import landing from "./../../assets/Landing2.png";
 
 const Landing = () => {
-  
+
   return (
     <div className={classes.landing}>
       <img src={landing} alt="landing" className={classes.landingImg} />
